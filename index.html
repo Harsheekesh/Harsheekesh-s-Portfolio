@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harsheekesh-Tiwari</title>
+  <link rel="shortcut icon" href="assets/favi.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/9b184caf9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- ===== HEADER SECTION ===== -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="/assets/Top-Head-preview.png" class="logo" alt="Logo" />
+        <ul id="navMenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+      </nav>
+
+      <div class="header-text">
+        <p>Frontend Developer</p>
+        <h1>Hello, I am <span>Harsheekesh Tiwari</span> <br />A BCA Student at MMDU</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col1">
+          <img src="/assets/new-bg.jpg" alt="Harsheekesh Tiwari" />
+        </div>
+        <div class="about-col2">
+          <h1 class="subtitle">About Me</h1>
+          <p>I’m Harsheekesh Tiwari, a BCA student at MMDU Mullana who turns ideas into sleek, responsive web apps using HTML, CSS, JavaScript, and C/C++. As a natural team leader and hackathon enthusiast, I thrive on solving real‑world challenges—let’s build something amazing together!</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-contemts active-tab" id="Skills">
+            <ul>
+              <li><span>Web Development</span><br />Deployed Multiple Web Projects</li>
+              <li><span>CANVA</span><br />To Design UI/UX Projects</li>
+              <li><span>DSA</span><br />Core Interest in solving DSA Problems</li>
+            </ul>
+          </div>
+          <div class="tab-contemts" id="Experience">
+            <ul>
+              <li><span>Fresher</span><br />But work with several group projects</li>
+              <li><span>Hackathons</span><br />Participated in multiple hackathons</li>
+              <li><span>Leadership</span><br />Natural team leader in group projects</li>
+            </ul>
+          </div>
+          <div class="tab-contemts" id="Education">
+            <ul>
+              <li><span>2023-2026</span><br />BCA at MMDU, Mullana(Ambala)</li>
+              <li><span>2022</span><br />Intermidiate, BSEB</li>
+              <li><span>2020</span><br />Matriculation, BSEB</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <div id="projects">
+    <div class="container">
+      <h1 class="subtitle">Projects</h1>
+      <div class="project-list">
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>Placement Record Management System</h2>
+          <p>A web-based application designed to streamline university placement data.</p>
+          <a href="https://github.com/Harsheekesh/Placement-Record-System/blob/main/Placement%20Record%20Project-Report.pdf">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-arrow-right-to-bracket"></i>
+          <h2>Internet Login Clone</h2>
+          <p>A pixel-perfect replica of a modern ISP login portal, built to demonstrate front-end proficiency.</p>
+          <a href="https://harsheekesh.github.io/Internet-Login-Clone-/">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-user-tie"></i>
+          <h2>Portfolio</h2>
+          <p>A showcase of my top projects highlighting, skills and interest.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-calculator"></i>
+          <h2>Calculator</h2>
+          <p>A responsive, user-friendly calculator for basic arithmetic operations using HTML, CSS, and JavaScript.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-hourglass-start"></i>
+          <h2>Loading More</h2>
+          <p>Developing Expertise</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ACADEMICS SECTION ===== -->
+  <div class="academics" id="academics">
+    <div class="container">
+      <h3 class="subtitle">Academic Record & Activities</h3>
+      <div class="record-list">
+        <div class="cgpa-record">
+          <img src="/assets/UNIBG.jpg" alt="Academic Statistics" />
+          <div class="layer">
+            <h3>Acadmic Statistics</h3>
+            <p>Consistently performed well with a current average CGPA of 8.43 till the 3rd semester of BCA at MMDU Mullana.</p>
+          </div>
+        </div>
+        <div class="cgpa-record">
+          <img src="/assets/techno2024.jpg" alt="Technophilia-2k24" />
+          <div class="layer">
+            <h3>Participant <br /> Technophilia-2k24</h3>
+            <p>Actively participated in project showcases and tech sessions, highlighting innovation and teamwork.</p>
+          </div>
+        </div>
+        <div class="cgpa-record">
+          <img src="/assets/techno2025.jpg" alt="Technophilia-2k25" />
+          <div class="layer">
+            <h3>Winner | Technophilia-2k25</h3>
+            <p>Winner of the Tech Trivia competition, showcasing strong technical knowledge, quick thinking, and problem-solving skills.</p>
+          </div>
+        </div>
+        <div class="cgpa-record">
+          <img src="/assets/hindiwinner.jpg" alt="Hindi Divas" />
+          <div class="layer">
+            <h3>Winner | Hindi Divas</h3>
+            <p>Secured 1st position in the Hindi Divas competition, celebrating linguistic excellence and creative expression in Hindi.</p>
+          </div>
+        </div>
+        <div class="cgpa-record">
+          <img src="/assets/SIH-24.jpg" alt="Smart India Hackathon" />
+          <div class="layer">
+            <h3>Smart India Hackathon 2024</h3>
+            <p>Participated in the Smart India Hackathon 2024, contributing to innovative solutions for real-world problems.</p>
+          </div>
+        </div>
+        <div class="cgpa-record">
+          <img src="/assets/PROexe.jpg" alt="Smart India Hackathon" />
+          <div class="layer">
+            <h3>Project Exhibition</h3>
+            <p>Proudly led as Student Coordinator of the Project Exhibition on National Technology Day.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="subtitle">Contact Me</h1>
+          <p><i class="fa-regular fa-envelope"></i><a href="mailto:harsheekeshtiwari01@gmail.com">harsheekeshtiwari01@gmail.com</a></p>
+          <p><i class="fa-solid fa-square-phone"></i> +91 6XXXXXXXXX</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/harsheekesh-tiwari-01a697292/"><i class="fa-brands fa-linkedin-in" id="linkedin"></i></a>
+            <a href="https://github.com/Harsheekesh"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/tech.buster01?igsh=NmhjcWxvZmRzZXVv"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="assets/Harsheekesh Tiwari-ATS.pdf" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea rows="6" name="Message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn2">Send Message</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2025 Harsheekesh Tiwari <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
